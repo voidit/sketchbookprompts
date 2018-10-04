@@ -20,7 +20,17 @@
 }
 
 h1 {
+    font-weight: 200;
+    font-size: 2.5em;
+    margin: 0.4em 0;
+    cursor: pointer;
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end;
+}
 
+h1:hover {
+    animation: rainbow 5s infinite alternate;
 }
 
 section.links {
@@ -58,31 +68,55 @@ section.links a:hover {
     0% {
         background-color: #282c34;
     }
-    5% {
-        background-color: red;
-    }
-    10% {
-        background-color: orange;
-    }
-    15% {
-        background-color: yellow;
-    }
-    20% {
-        background-color: green;
-    }
-    25% {
-        background-color: deepskyblue;
-    }
-    30% {
-        background-color: darkblue;
-    }
-    35% {
-        background-color: blueviolet;
-    }
-    40% {
-        background-color: #282c34;
-    }
     100% {
         background-color: #000;
+    }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    10% {
+        color: orange;
+    }
+    20% {
+        color: yellow;
+    }
+    30% {
+        color: chartreuse;
+    }
+    40% {
+        color: green;
+    }
+    50% {
+        color: deepskyblue;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: darkblue;
+    }
+    80% {
+        color: navy;
+    }
+    90% {
+        color: blueviolet;
+    }
+    100% {
+        color: indigo;
     }
 }
