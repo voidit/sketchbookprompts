@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import rainbow from './assets/rainbow.svg'
 import aquarelle from './assets/aquarelle.svg'
 import logo from './assets/logo.svg'
+import github from './assets/github.svg'
 import promptsJSON from './prompts.json'
 import './App.css'
 
@@ -54,6 +55,7 @@ class App extends Component {
                     <section className="links">
                         <Button icon={aquarelle} href="http://aquarelle.us" />
                         <Button icon={logo} href="http://voidit.net" />
+                        <Button icon={github} href="https://github.com/voidit/sketchbookprompts.git" />
                     </section>
                 </header>
             </div>
