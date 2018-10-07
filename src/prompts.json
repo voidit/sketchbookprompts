@@ -54,7 +54,7 @@
     "draw": "A chandelier dripping with crystals"
   },
   {
-    "draw": "A circle that doesn't know how to quitspiraling out of control!"
+    "draw": "A circle that doesn't know how to quit spiraling out of control!"
   },
   {
     "draw": "A clinging vine and a caved in roof"
@@ -63,13 +63,19 @@
     "draw": "A cloud"
   },
   {
+    "draw": "Look at clouds and draw what you found there"
+  },
+  {
     "draw": "A coiled rope submerged in hair gel"
   },
   {
     "draw": "A computer in 15 years"
   },
   {
-    "draw": "A conservatory full of Venus fly traps"
+    "draw": "You together with your best friend in 15 years"
+  },
+  {
+    "draw": "A conservatory full of Venus Flytraps"
   },
   {
     "draw": "A dark object in a dark environment"
@@ -1741,5 +1747,41 @@
   },
   {
     "draw": "Your hand making a secret sign"
+  },
+  {
+    "draw": "A searchlight in a closet"
+  },
+  {
+    "draw": "The Land of Second Socks"
+  },
+  {
+    "draw": "The other side of the Moon"
+  },
+  {
+    "draw": "A volcano"
+  },
+  {
+    "draw": "An average posthuman"
+  },
+  {
+    "draw": "Soft murmurs and shuffling of papers"
+  },
+  {
+    "draw": "A hidden part of an iceberg"
+  },
+  {
+    "draw": "Build a castle out of the letters of your name"
+  },
+  {
+    "draw": "A pyramid from the letters of your name"
+  },
+  {
+    "draw": "Spaghetti"
+  },
+  {
+    "draw": "Cherry twins (triplets? quadruplets?)"
+  },
+  {
+    "draw": "Yourself flying"
   }
 ]
