@@ -708,31 +708,34 @@
     "draw": "Drape a mysterious object in cloth, draw it"
   },
   {
-    "draw": "Draw 2 eggs in the shell, fried"
+    "draw": "2 eggs in the shell, fried"
   },
   {
-    "draw": "Draw bottles and cans- have the cans crunched up for lots of detail and contrast to the bottles' smoothness"
+    "draw": "Bottles and cans- have the cans crunched up for lots of detail and contrast to the bottles' smoothness"
   },
   {
-    "draw": "Draw family picture"
+    "draw": "Family picture"
   },
   {
-    "draw": "Draw hands holding something"
+    "draw": "Hands holding something"
   },
   {
-    "draw": "Draw hands making a shadow creature (rabbit, wolf, or other)"
+    "draw": "Hands making a shadow creature (rabbit, wolf, or other)"
   },
   {
-    "draw": "Draw moving water, still water"
+    "draw": "Moving water, still water"
   },
   {
-    "draw": "Draw music from far away"
+    "draw": "Music from far away"
   },
   {
-    "draw": "Draw popcorn"
+    "draw": "Drumming"
   },
   {
-    "draw": "Draw raw chicken parts; cooked parts; after eaten parts"
+    "draw": "Popcorn"
+  },
+  {
+    "draw": "Raw chicken parts; cooked parts; after eaten parts"
   },
   {
     "draw": "Dried apricots and wet napkins"
@@ -1687,5 +1690,26 @@
   },
   {
     "draw": "Zesty zippy zigzags"
+  },
+  {
+    "draw": "Different ways of walking"
+  },
+  {
+    "draw": "Dance steps"
+  },
+  {
+    "draw": "A detailed map of your street (from memory)"
+  },
+  {
+    "draw": "Fireflies in August grass"
+  },
+  {
+    "draw": "A curious octopus playing with research instruments"
+  },
+  {
+    "draw": "Something white on white"
+  },
+  {
+    "draw": "An ear"
   }
 ]
