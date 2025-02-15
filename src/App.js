@@ -49,13 +49,18 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <meta name="keywords" content="Sketchbook Prompts"/>
+                <meta name="description" content="Explore endless creativity with our random art prompt generator. Perfect for art students and kids, our tool inspires artistic expression with fun and engaging prompts." />
+                <meta name="keywords" content="art prompt generator, random art ideas, creative prompts for kids, art students, drawing prompts, creative inspiration" />
+
+
                 <header className="App-header">
                     <img src={rainbow} className="App-logo" alt="logo"/>
                     <h1 onClick={this.randomize}>Draw... {this.state.currentPrompt}</h1>
                     <section className="links">
-                        <Button icon={aquarelle} href="http://aquarelle.us" />
-                        <Button icon={logo} href="http://voidit.net" />
-                        <Button icon={github} href="https://github.com/voidit/sketchbookprompts.git" />
+                        <Button icon={aquarelle} href="http://aquarelle.us"/>
+                        <Button icon={logo} href="http://voidit.net"/>
+                        <Button icon={github} href="https://github.com/voidit/sketchbookprompts.git"/>
                     </section>
                 </header>
             </div>

@@ -1,6 +1,6 @@
 {
-  "name": "sketchbook",
-  "version": "0.1.0",
+  "name": "Sketchbook Prompts",
+  "version": "0.1.1",
   "private": true,
   "homepage": "./",
   "dependencies": {
