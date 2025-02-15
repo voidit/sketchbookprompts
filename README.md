@@ -4,7 +4,7 @@ Click on a prompt to generate a new one, and have fun!
 
 ## References
 
-- [voidit.net](http://voidit.net)
+- [voidit.art](http://voidit.art)
 - [aquarelle.us](http://aquarelle.us)
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
