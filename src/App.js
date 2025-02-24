@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from "react-helmet"
+// import ScreenshotButton from './ScreenshotButton'
+import FullPageScreenshot from './FullPageScreenshot'
 import rainbow from './assets/rainbow.svg'
 import paintspace from './assets/paintspace.svg'
 import aquarelle from './assets/aquarelle.svg'
@@ -7,19 +9,6 @@ import logo from './assets/logo.svg'
 import github from './assets/github.svg'
 import promptsJSON from './prompts.json'
 import './App.css'
-
-const meta = {
-    title: 'Sketchbook Prompts: Creative Art Prompt Generator for Kids and Students',
-    description: "Explore endless creativity with our random art prompt generator. Perfect for art students and kids, our tool inspires artistic expression with fun and engaging prompts.",
-    // canonical: 'http://example.com/path/to/page',
-    keywords: "art prompt generator, random art ideas, creative prompts for kids, art students, drawing prompts, creative inspiration",
-    author: "Sketchbook Prompts Generator",
-    viewport: "width=device-width, initial-scale=1.0",
-    charset: "UTF-8",
-    robots: "index, follow"
-}
-
-
 class Button extends Component {
     render() {
         return (
@@ -73,8 +62,10 @@ class App extends Component {
                     <meta name="robots" content="index, follow" />
                 </Helmet>
                 <header className="App-header">
-                <img src={rainbow} className="App-logo" alt="logo" onClick={this.randomize} />
+                <FullPageScreenshot>
+                    <img src={rainbow} className="App-logo" alt="logo" onClick={this.randomize} />
                     <h1 onClick={this.randomize}>Draw... {this.state.currentPrompt}</h1>
+                </FullPageScreenshot>
                     <section className="links">
                         <Button icon={aquarelle} href="//aquarelle.us" target="_blank" />
                         <Button icon={paintspace} href="//draw-paint-make.art" target="_blank" />
