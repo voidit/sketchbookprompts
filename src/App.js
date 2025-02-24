@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Helmet } from "react-helmet"
 import rainbow from './assets/rainbow.svg'
+import paintspace from './assets/paintspace.svg'
 import aquarelle from './assets/aquarelle.svg'
 import logo from './assets/logo.svg'
 import github from './assets/github.svg'
@@ -72,12 +73,13 @@ class App extends Component {
                     <meta name="robots" content="index, follow" />
                 </Helmet>
                 <header className="App-header">
-                <img src={rainbow} className="App-logo" alt="logo"/>
+                <img src={rainbow} className="App-logo" alt="logo" onClick={this.randomize} />
                     <h1 onClick={this.randomize}>Draw... {this.state.currentPrompt}</h1>
                     <section className="links">
-                        <Button icon={aquarelle} href="http://aquarelle.us"/>
-                        <Button icon={logo} href="http://voidit.net"/>
-                        <Button icon={github} href="https://github.com/voidit/sketchbookprompts.git"/>
+                        <Button icon={aquarelle} href="//aquarelle.us" target="_blank" />
+                        <Button icon={paintspace} href="//draw-paint-make.art" target="_blank" />
+                        <Button icon={logo} href="//voidit.art" target="_blank" />
+                        <Button icon={github} href="//github.com/voidit/sketchbookprompts.git" target="_blank" />
                     </section>
                 </header>
             </div>

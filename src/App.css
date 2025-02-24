@@ -1,32 +1,36 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    cursor: pointer;
+}
+
+.App-logo:hover {
+    color: orange;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  animation: pulse 5s infinite alternate;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    animation: pulse 5s infinite alternate;
 }
 
 h1 {
     font-weight: 200;
-    font-size: 2.5em;
+    font-size: 2rem;
     margin: 0.4em 0;
     cursor: pointer;
-    animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end;
 }
 
 h1:hover {
@@ -51,17 +55,18 @@ section.links a {
     border-radius: 50%;
     align-items: center;
 }
+
 section.links a:hover {
     background: rgba(255, 255, 255, 0.5);
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes pulse {
@@ -75,14 +80,22 @@ section.links a:hover {
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
 }
 
 @keyframes rainbow {
